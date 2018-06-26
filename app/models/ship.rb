@@ -9,4 +9,13 @@ class Ship
     @booty = args[:booty]
     SHIPS << self
   end
+
+  def self.all
+    SHIPS
+  end
+
+  def self.clear
+    SHIPS.clear
+  end
+
 end
